@@ -1,0 +1,9 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #020c18;
+  font-family: "Inter", Arial, sans-serif;
+  min-height: 100vh;
+  max-width: 100%;
+}
