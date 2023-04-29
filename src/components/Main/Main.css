@@ -1,0 +1,14 @@
+.main {
+  color: #fff;
+  width: 100%;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+.section__title {
+  font-family: "JetBrains Mono", "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0 0 56px 0;
+}

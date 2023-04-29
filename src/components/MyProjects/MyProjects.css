@@ -1,0 +1,12 @@
+.projects {
+  padding: 100px 0;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

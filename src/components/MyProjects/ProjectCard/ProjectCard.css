@@ -1,0 +1,40 @@
+.projects__card {
+  max-width: 405px;
+  border: 2px solid #fff;
+  box-shadow: 9px 5px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__image {
+  object-fit: contain;
+  height: 240px;
+}
+
+.project__about {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 20px 25px;
+}
+
+.projects__name {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  white-space: nowrap;
+}
+
+.project__about-link {
+  margin-left: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.003em;
+  white-space: nowrap;
+}
