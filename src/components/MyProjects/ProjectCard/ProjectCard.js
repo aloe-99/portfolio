@@ -6,9 +6,9 @@ function ProjectCard(props) {
   return (
     <li className='projects__card'>
       <img className='projects__image' src={imagePath} alt='Фото проекта' />
-      <div className='project__about'>
+      <div className='projects__about'>
         <p className='projects__name'>{projectName}</p>
-        <span className='project__about-link'>О проекте</span>
+        <span className='projects__about-link'>О проекте</span>
       </div>
     </li>
   );

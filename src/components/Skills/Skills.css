@@ -1,0 +1,11 @@
+.skills__container {
+  display: flex;
+}
+
+.skills__logo {
+  margin-right: 35px;
+}
+
+.skills__logo:last-child {
+  margin-right: 0;
+}

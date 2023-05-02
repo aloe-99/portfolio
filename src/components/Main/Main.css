@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.section {
+  padding: 40px 0;
+}
+
 .section__title {
   font-family: "JetBrains Mono", "Inter", sans-serif;
   font-weight: 700;

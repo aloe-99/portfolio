@@ -1,0 +1,22 @@
+.contacts__group {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts__icon {
+  margin: 0 16px 0 0;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts__link {
+  color: #98ce00;
+  text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.contacts__link:last-child {
+  margin-bottom: 0;
+}
