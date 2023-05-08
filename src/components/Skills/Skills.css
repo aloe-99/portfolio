@@ -1,5 +1,6 @@
 .skills__container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skills__logo {
@@ -8,4 +9,23 @@
 
 .skills__logo:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .skills__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 89px 89px;
+    gap: 20px;
+  }
+
+  .skills__logo {
+    margin-right: 0;
+  }
 }

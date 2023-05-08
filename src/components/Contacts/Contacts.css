@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.contacts__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
 .contacts__icon {
   margin: 0 16px 0 0;
   width: 24px;
@@ -12,11 +19,32 @@
 .contacts__link {
   color: #98ce00;
   text-decoration-line: underline;
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
 }
 
 .contacts__link:last-child {
   margin-bottom: 0;
+}
+
+.contacts__copy-text {
+  margin-left: 16px;
+  color: #abb2bf;
+  visibility: hidden;
+}
+
+.contacts__copy-text_visible {
+  visibility: visible;
+}
+
+@media screen and (max-width: 500px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts__group {
+    margin: 0;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  }
 }

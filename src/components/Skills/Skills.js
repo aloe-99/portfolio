@@ -7,7 +7,7 @@ import nodeLogo from '../../images/skills/Skill=NodeJS.svg';
 
 function Skills() {
   return (
-    <section className='skills section'>
+    <section className='skills section' id='skills'>
       <h2 className='section__title'>Скиллы</h2>
       <div className='skills__container'>
         <img className='skills__logo' alt='Логотип HTML5' src={htmlLogo} />

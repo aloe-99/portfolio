@@ -2,7 +2,7 @@ import './AboutMe.css';
 
 function AboutMe() {
   return (
-    <section className='about section'>
+    <section className='about section' id='about'>
       <h2 className='section__title'>Обо мне</h2>
       <p className='about__text'>
         Я родился и живу в Красногорске, обучаюсь на факультете бизнес-информатики МЭИ.

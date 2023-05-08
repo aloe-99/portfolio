@@ -6,3 +6,16 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1250px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
+}

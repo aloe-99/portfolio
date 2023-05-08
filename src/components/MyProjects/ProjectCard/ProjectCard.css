@@ -1,5 +1,5 @@
 .projects__card {
-  max-width: 405px;
+  width: 100%;
   border: 2px solid #fff;
   box-shadow: 9px 5px 13px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
@@ -11,13 +11,14 @@
 }
 
 .projects__image {
-  object-fit: contain;
+  object-fit: cover;
   height: 240px;
+  width: 100%;
 }
 
 .projects__about {
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   align-self: flex-start;
@@ -36,10 +37,22 @@
 }
 
 .projects__about-link {
-  margin-left: 28px;
+  margin-left: auto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.003em;
   white-space: nowrap;
+  text-decoration-line: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .projects__name {
+    font-size: 18px;
+  }
+
+  .projects__about-link {
+    font-size: 14px;
+  }
 }
